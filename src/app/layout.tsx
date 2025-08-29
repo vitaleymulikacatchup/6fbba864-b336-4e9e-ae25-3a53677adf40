@@ -6,7 +6,7 @@ export const metadata = {
   description: 'Launch a playful, concise landing that introduces MEMEcoin, explains how to buy, and presents tokenomics with clear CTAs.'
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className="antialiased">

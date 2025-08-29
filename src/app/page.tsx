@@ -17,7 +17,7 @@ const navItems = [
 export default function Home() {
   return (
     <>
-      <NavbarStyleMinimal logoSrc="/images/logo.svg" logoAlt="MEMEcoin Pulse Logo" navItems={navItems} buttonText="Get MEME" onButtonClick={() => console.log('Get MEME clicked')} />
+      <NavbarStyleMinimal logoSrc="/images/logo.svg" logoWidth={120} logoHeight={60} navItems={navItems} buttonText="Get MEME" onButtonClick={() => console.log('Get MEME clicked')} />
       <SplitHero title="Welcome to MEMEcoin" subtitle="Join the meme revolution with us!" primaryButtonText="Get MEME" onPrimaryButtonClick={() => console.log('Primary CTA clicked')} />
       <SplitAbout description="Experience the fun and dynamic world of MEMEcoin, your gate to blockchain innovation!" />
       <HowToBuy3D title="How to Buy MEMEcoin" steps={[
